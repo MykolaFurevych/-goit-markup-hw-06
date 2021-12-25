@@ -488,26 +488,23 @@ img {
 
 .form-footer-input {
   margin: 0;
-  text-indent: 60px;
   padding: 15px 16px;
   width: 358px;
   border: 1px solid rgba(255, 255, 255, 0.3);
   filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.15));
   border-radius: 4px;
   background-color: #2f303a;
+
+  font-size: 16px;
+  line-height: 1.25;
+  letter-spacing: 0.03em;
+  color: rgba(255, 255, 255, 0.6);
 }
-.form-box {
-  position: relative;
-}
+
 .footer-form-box {
   margin-left: 93px;
 }
-.form-footer-label {
-  position: absolute;
-  top: 50%;
-  left: 16px;
-  transform: translateY(-50%);
-}
+
 .footer-button {
   position: relative;
   font-weight: bold;
@@ -716,6 +713,7 @@ img {
 }
 .label {
   display: flex;
+  justify-content: center;
   align-items: center;
 }
 .checkbox {
