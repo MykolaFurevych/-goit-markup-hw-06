@@ -501,6 +501,10 @@ img {
   color: rgba(255, 255, 255, 0.6);
 }
 
+.form-footer-input:focus {
+  border: 1px solid var(--accent-color);
+  outline: none;
+}
 .footer-form-box {
   margin-left: 93px;
 }
